@@ -1,0 +1,525 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	padding-top: 51px;
+}
+
+/*------bootstrap overriding start ---------*/
+
+.navbar .navbar-brand{
+	font-size: 30px
+}
+
+.navbar .navbar-brand span{
+	color: #08526d;
+	font-family: "Rampart One";
+	font-weight: bold;
+}
+
+.navbar .navbar-nav > .active > a{
+	color: #08526d;
+}
+
+.navbar-nav > li > a{
+	font-size: 17px;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus{
+	color: #08526d !important;
+}
+
+.navbar-right .dropdown-menu{
+	left:0;
+	right:auto;
+	border-bottom: 2px solid #08526d;
+}
+
+.dropdown-menu > li > a:hover {
+	background-color: #08526d;
+	color: #fff;
+}
+
+/*------bootstrap overriding end ---------*/
+
+
+/*------upper bar start --------*/
+.upper-bar {
+	background-color: #08526d;
+	color: #fff;
+	padding: 10px;
+}
+
+.upper-bar span {
+    color: #bfc6c9;
+}
+
+.upper-bar .welcome {
+    display: inline-block;
+    border: solid 1px #ec1c23;
+    padding: 2px 10px;
+    margin-left: 20px;
+}
+
+.upper-bar * {
+	font-size: 17px;
+}
+
+
+/*---------upper bar end ------------*/
+
+/*------- start header --------------*/
+
+/**/
+
+.header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/header.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.header h1 {
+	color: #fff;
+	margin-top: 10%;
+	font-family: "Rampart One";
+	letter-spacing: 1px;
+	padding: 40px
+}
+
+.header h1 span:last-child{
+	color: #56b9df;
+	font-weight: bold;
+}
+
+.header form {
+	margin-top: 7%;
+}
+
+.header form input {
+	font-size: 18px;
+	margin-bottom: 20px;
+	background: none;
+	color: #fff;
+	outline-style: none !important;
+	-webkit-box-shadow: inset 0 1px 1px #08526d !important;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s !important;
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.header form button {
+	margin-top: 10px;
+	font-size: 18px;
+	color: #fff;
+	background: none;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+.header form button:hover, .header form button:focus{
+	color: #fff;
+	background-color: #08526d;
+}
+
+/*------- header header --------------*/
+
+/*---------products section start----------*/
+
+.last-products {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #fff;
+}
+
+.last-products h1,.last-products h3 {
+	margin-bottom: 50px;
+}
+
+.last-products h1 span:last-child, .last-products h3 span:last-child{
+	color: #08526d;
+	font-family: "Rampart One";
+}
+
+.last-products .card-product{
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+	margin: 10px;
+	padding: 5px 0px;
+	min-height: 360px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.last-products .card-product i {
+	color: gold;
+}
+
+.last-products .card-product img {
+	max-width: 200px;
+	max-height: 300;
+}
+
+.last-products .card-product .price {
+	padding: 5px;
+	margin-top: 5px;
+	background-color: #eee;
+}
+
+.last-products .card-product .price del {
+	color: red;
+	display: block;
+}
+
+.last-products .card-product .price span {
+	color: #08526d;
+	display: block;
+}
+
+.last-products .card-product .visit {
+	display: block;
+}
+
+.last-products .card-product button {
+	border: 2px white solid;
+	background-color: #08526d;
+	color: white;
+	padding: 5px;
+	margin: 5px; 
+	font-size: 15px;
+	width: 150px;
+}
+
+.last-products .card-product button:hover {
+	border-color: #ec1c23;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+.last-products .see-all {
+	margin-top: 50px;
+}
+
+.see-all a {
+	border: 2px solid #08526d;
+	border-radius: 3px;
+	padding: 5px;
+	color: #08526d;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.see-all a:hover {
+	background-color: #08526d;
+	color: #fff;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+/*---------products section end ----------*/
+
+/*---------topics section end ----------*/
+
+.topics {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f8f8f8;
+}
+
+.topics .row {
+	padding-top: 40px;
+	padding-bottom: 40px
+}
+
+.topics h1 span:last-child, .topics h3 span:last-child{
+	color: #08526d;
+	font-family: "Rampart One";
+}
+
+.topics .fas {
+	font-size: 20px;
+}
+
+.topics .col-lg-3 {
+	padding-top: 5px;
+	margin-bottom: 40px;
+}
+
+.topics .col-lg-3:hover {
+	cursor: pointer;
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+	margin-top: 5px;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+.topics .col-lg-3 h3 {
+	color: #08526d;
+}
+
+.topics .col-lg-3 p{
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.topics .col-lg-3 span {
+	border: 2px solid #08526d;
+	border-radius: 50%;
+	padding: 10px;
+	-webkit-transition-duration: 0.7s;
+	-moz-transition-duration: 0.7s;
+	-o-transition-duration: 0.7s;
+	transition-duration: 0.7s;
+	background-color: #08526d;
+	color: #fff;
+}
+
+.topics .col-lg-3:hover span{
+	-webkit-transition:scale(1.1, 1.1) rotate(360deg);
+	-moz-transition:scale(1.1, 1.1) rotate(360deg);
+	-o-transition:scale(1.1, 1.1) rotate(360deg);
+	transition:scale(1.1, 1.1) rotate(360deg);
+}
+
+.read-more {
+	color: #08526d;
+}
+
+/*---------topics section end ----------*/
+
+/*-------- start new products section ---------*/
+
+.new-products {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.new-products h1 span:last-child, .new-products h3 span:last-child{
+	color: #08526d;
+	font-family: "Rampart One";
+}
+
+.new-products .carousel-indicators {
+	position: static;
+	width: 100%;
+	margin-left: auto;
+	padding-top: 20px;
+}
+
+.new-products .carousel-indicators li {
+	text-indent: 0;
+	width: 10px;
+	height: 10px;
+	background: none;
+	border: 1px solid #08526d;
+	border-radius: 3%;
+	overflow: hidden;
+	margin: 5px;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+.new-products .carousel-indicators li.active {
+	background-color: #08526d;
+}
+
+.new-products .carousel img {
+	width: 50%;
+}
+
+.new-products .carousel h1, .new-products .carousel h3 {
+	color: #08526d;
+}
+
+.new-products .carousel .lead {
+	font-size: 18px;
+}
+
+.new-products .carousel-inner {
+	min-height: 400px;
+}
+
+/*-------- end new products section ------*/
+
+/*-------- start blogs section----------- */
+
+.blogs {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	background:center center #f8f8f8 fixed;
+}
+
+.blogs .blog-card {
+	width: 300px;
+	max-height: 450px;
+	padding: 0px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: #fff;
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.blogs .blog-card:hover,
+.blogs .blog-card:focus
+{
+	cursor: pointer;
+	width: 310px;
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+
+.blogs h1,.blogs h3 {
+	margin-bottom: 40px;
+}
+
+.blogs .blog-card h3 {
+	margin-bottom: 0;
+	color: #08526d;
+}
+
+.blogs .blog-card p{
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 17px;
+	letter-spacing: 1px;
+	padding: 5px;
+}
+
+
+.blogs h1 span:last-child, .blogs h3 span:last-child{
+	color: #08526d;
+	font-family: "Rampart One";
+}
+/*---------- end blogs section----------- */
+
+/*---------- Start Our team section---------------*/
+
+.our_team {
+	background-color: black;
+	width: 100%;
+	min-height: 600px;
+}
+
+.our_team h1 {
+	margin-bottom: 60px;
+}
+
+.our_team h3 span{
+	color: #08526d;
+	font-weight: bold;
+}
+
+.our_team h1 span:last-child, .our_team h3 span:last-child{
+	color: #08526d;
+	font-family: "Rampart One";
+}
+
+.our_team .teambg{
+	background-color: rgba(2,2,2,0.7);
+	color: #fff;
+	min-height: 600px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.our_team .person {
+	margin-bottom: 40px;
+}
+
+.our_team p{
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.our_team h1.abouheading {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.our_team .about-us-p {
+	padding: 5px;
+	background-color: rgba(2,2,2,0.5);
+}
+/*---------- End Our team section---------------*/
+
+/*---------- Start Footer Contact --------------*/
+
+.contact {
+	padding-top: 80px;
+	padding-bottom: 10px;
+	background-color: #f8f8f8;
+}
+
+.contact .col-lg-4 {
+	margin-top: 20px;
+}
+
+.contact h4 {
+	color: #08526d;
+}
+
+.contact ul a {
+	color: gray;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.contact ul a:hover,
+.contact ul a:focus{
+	text-decoration: none;
+	color: #08526d;
+	padding-left: 10px;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+.contact .hamza {
+	margin-top: 20px;
+}
+
+.contact .hamza p {
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.contact .hamza p a{
+	color: #08526d;
+}
+
+.contact .hamza p a:hover{
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+/*---------- Start Footer Contact --------------*/
+
+
+
+
